@@ -1,0 +1,124 @@
+*{
+   margin: 0;
+   padding: 0; 
+ 
+   
+
+}
+.lokesh{
+    width: 100%;
+    
+    background-position: center;
+    background-size:center;
+    background-size: cover;
+    height: 100hv;
+    font-family: sans-serif;
+
+}
+.navbar{
+ width: 80%;
+ display: flex;
+ margin: auto;
+ padding: 15px 0;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 10%;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -0%;
+
+}
+ul{
+    margin-top: -2%;
+
+
+}
+ul li{
+list-style: none;
+display: inline-block;
+padding: 5px 20px;
+margin-right: 10px;
+margin-top: 15px;
+
+}
+ul li a{
+    font-size:20px ;
+    font-weight: lighter;
+    text-decoration: none;
+    color:black;
+    margin-top: 3%;
+    
+    transition: .4s ease;
+
+
+
+}
+ul li a:hover{
+    color: rgb(230, 104, 50);
+}
+.information{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.information h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.information h1{
+    font-size: 66px;
+    color: black;
+
+
+
+}
+.information span{
+    color: rgb(230, 104, 50);
+}
+.information h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+}
+.information span{
+    color: rgb(red, green, blue);
+}
+.information a{
+
+    text-decoration: none;
+    color:white;
+    background: rgb(230, 104, 50);
+    margin: 26px 0;
+    padding: 6px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transform: .4s ease;
+
+}
+.information a:hover{
+    background: rgba(0, 8, 12, 0.651);
+} 
+.image{
+    width: 30%;
+    height: 45%;
+    position: absolute;
+    right: 100px;
+   
+    bottom: 40%;
+
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-60%);
+    transition: left 2s ease;
+    bottom: -40%;
+}
+.image:hover .men{
+    left: 55% ;
+}
